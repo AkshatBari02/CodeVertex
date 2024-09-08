@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+* {
+  margin: --0;
+  padding: --0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #2e2e2e;
+}
+header h1{
+    font-family: 'Tilt Prism', cursive;
+    color: #fffff0;
+    font-size: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+header h2{
+    font-family: 'Dancing Script', cursive;
+    color: #f3d192;
+    font-size: 33px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.dates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #ffb428;
+    background-color: #f8f8f8;
+}
+.main h1{
+    color: #fffff0;
+    text-decoration: underline;
+    font-family: 'Righteous', cursive;
+    font-size: 37px;
+    text-align: center;
+
+}
+.main ul li{
+    color: #f3d192;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+}
+
+.main ul{
+    margin: 0 5vw;
+}
+.main span{
+    color: #fffff0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 25vw 30vw 25vw;
+    margin-left: 8vw;
+}
+.left{
+    color: #f3d192;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.right{
+    color: #f3d192;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    text-align: right;
+}
+.middle img{
+    margin-left: 9vw;
+}
